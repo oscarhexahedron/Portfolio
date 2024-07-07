@@ -198,4 +198,20 @@ body {
     font-size: 15px;
 }
 
+@media (max-width: 1000px) {
+    .container {
+        margin: 20px;
+        grid-template-columns: repeat(1,1fr);
+    }
+}
 
+@media (max-width: 1000px) {
+    .about .box {
+        flex-direction: column;
+    }
+
+    .about .box .year_school {
+        min-width: 150px;
+        margin-bottom: 5px;
+    }
+}
