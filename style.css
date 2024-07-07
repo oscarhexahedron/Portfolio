@@ -83,6 +83,8 @@ body {
 
 .contact-info {
     padding-top: 40px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid rgba(255,255,255,.2);
 }
 
 .title {
@@ -117,8 +119,83 @@ body {
     font-weight: 300;
 }
 
+.skills {
+    padding-top: 40px;
+    padding-bottom: 20px;
+}
+
+.skills ul {
+    position: relative;
+    width: 300px;
+}
+
+.skills ul li {
+    position: relative;
+    list-style: none;
+    margin: 10px;
+}
+
+.skills ul li .icon {
+    display: inline-block;
+    width: 30px;
+    font-size: 18px;
+    color: #7bed9f;
+}
+
+.skills ul li span {
+    color: #ffffff;
+    font-weight: 300;
+}
+
 .container .right-side {
     position: relative;
     background: #ffffff;
     padding: 40px;
 }
+
+.about {
+    margin-bottom: 40px;
+}
+
+.about:last-child {
+    margin-bottom: 0;
+}
+
+.title2 {
+    color: #2f3542;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+}
+
+.about .box {
+    display: flex;
+    flex-direction: row;
+    margin: 10px 0;
+}
+
+.about .box .year_school {
+    min-width: 160px;
+}
+
+.about .box .year_school h4 {
+    color: #747d8c;
+    font-weight: 300;
+    font-size: 15px;
+}
+
+.about .box .text .program {
+    color: #57606f;
+    font-size: 15px;
+}
+
+.about .box .text .desc {
+    font-style: italic;
+    font-size: 15px;
+}
+
+.about .box .text .school {
+    font-size: 15px;
+}
+
+
